@@ -1,0 +1,193 @@
+
+ 
+[
+    {
+        "imagen": "../img/Adultos/El_Señor_de_los_anillos_El_retorno_del_Rey.jpg",
+        "id": 1,
+        "titulo": "El Señor de Los Anillos",
+        "subtitulo": "El Retorno del Rey",
+        "autor": "J.R.R. Tolkien",
+        "precio": 6350,
+        "cantidad": 1,
+        "categoria": "general"
+        },
+
+    {
+        "imagen": "../img/Adultos/portada_el-nudo_carlos-pagni_202302241836.jpg",
+        "id": 2,
+        "titulo": "El Nudo",
+        "subtitulo": "Politica",
+        "autor": "Carlos Pagni",
+        "precio": 4890,
+        "cantidad": 1,
+        "categoria": "general"
+    },
+
+    {
+        "imagen": "../img/Adultos/El_Silmarillon.jpg",
+        "id": 3,
+        "titulo": "El Silmarillion",
+        "subtitulo": "El Silmarillion",
+        "autor": "J.R.R. Tolkien",
+        "precio": 10200,
+        "cantidad": 1,
+        "categoria": "general"
+    },
+
+    {
+        "imagen": "../img/Adultos/obama.jpg",
+        "id": 4,
+        "titulo": "Una Tierra Prometida",
+        "subtitulo": "",
+        "autor": "Barack Obama",
+        "precio": 6350,
+        "cantidad": 1,
+        "categoria": "general"
+    },
+
+    {
+        "imagen": "../img/Adultos/Los_hijos_de_Hurin.jpg",
+        "id": 5,
+        "titulo": "Los Hijos de Hurin",
+        "subtitulo": "",
+        "autor": "Barack Obama",
+        "precio": 4890,
+        "cantidad": 1,
+        "categoria": "general"
+    },
+
+    {
+        "imagen": "../img/Adultos/stephen_king.jpg",
+        "id": 6,
+        "titulo": "El Visitante",
+        "subtitulo": "",
+        "autor": "Stephen King",
+        "precio": 4890,
+        "cantidad": 1,
+        "categoria": "general"
+    },
+
+    {
+        "imagen": "../img/Adultos/Sensatez_y_sentimiento.jpg",
+        "id": 7,
+        "titulo": "Sensatez y Sentimiento",
+        "subtitulo": "",
+        "autor": "Jane Austen",
+        "precio": 6350,
+        "cantidad": 1,
+        "categoria": "general"
+    },
+
+    {
+        "imagen": "../img/Adultos/Cumbres_barrascosas.jpg",
+        "id": 8,
+        "titulo": "Cumbres Borrascosas",
+        "subtitulo": "",
+        "autor": "Emily Bronte",
+        "precio": 5720,
+        "cantidad": 1,
+        "categoria": "general"
+    },
+
+    {
+        "imagen": "../img/Adultos/El_Retrato_de_Dorian_Gray.jpg",
+        "id": 9,
+        "titulo": "El Retrato de Dorian Gray",
+        "subtitulo": "",
+        "autor": "Oscar Wilde",
+        "precio": 12450,
+        "cantidad": 1,
+        "categoria": "general"
+    },
+                    
+    {
+        "imagen": "../img/infantil/Alicia A Traves Del Espejo - Lacombe.jpg",
+        "id": 10,
+        "titulo": "Alicia a través del Espejo",
+        "subtitulo": "Alicia a través del Espejo",
+        "precio": 9560,
+        "cantidad": 1,
+        "categoria": "infantil"
+    },
+       
+    {
+        "imagen": "../img/infantil/Amigos por el viento.jpg",
+        "id": 11,
+        "titulo": "Amigos por el Viento",
+        "subtitulos": "Amigos por el Viento",
+        "precio": 7360,
+        "cantidad": 1,
+        "categoria": "infantil"
+    },                    
+      
+    {
+        "imagen": "../img/infantil/CharlieFabricaChocolate.png",
+        "id": 12,
+        "titulo": "Charlie y la Fábrica de Chocolate",
+        "subtitulos": "Charlie y la fabrica de chocolate",
+        "precio": 5720,
+        "cantidad": 1,
+        "categoria": "infantil"
+    },
+    
+    {
+        "imagen": "../img/infantil/Cuentos de Navidad.jpg",
+        "id": 13,
+        "titulo": "Cuentos de Navidad",
+        "subtitulo": "Cuentos de Navidad",
+        "precio": 4380,
+        "cantidad": 1,
+        "categoria": "infantil"
+    },
+
+    {
+        "imagen": "../img/infantil/El maravilloso mago de Oz.jpg",
+        "id": 14,
+        "titulo": "El Maravilloso Mago de Oz",
+        "subtitulo": "El Maravilloso Mago de Oz",
+        "precio": 6320,
+        "cantidad": 1,
+        "categoria": "infantil"
+    },
+
+    {
+        "imagen": "../img/infantil/El pirincipito.jpg",
+        "id": 15,
+        "titulo": "El Principito",
+        "subtitulos": "El Principito",
+        "precio": 4890,
+        "cantidad": 1,
+        "categoria": "infantil"
+    },
+
+    {
+        "imagen": "../img/infantil/Matilda.jpg",
+        "id": 16,
+        "titulo": "Matilda",
+        "subtitulos": "Matilda",
+        "precio": 6350,
+        "cantidad": 1,
+        "categoria": "infantil"
+    },
+    
+    {
+        "imagen": "../img/infantil/Monigote en la arena.jpg",
+        "id": 17,
+        "titulo": "Monigote en la Arena",
+        "subtitulos": "Monigote",
+        "precio": 4890,
+        "cantidad": 1,
+        "categoria": "infantil"
+    },
+
+    {
+        "imagen": "../img/infantil/El espejo Africano.jpg",
+        "id": 18,
+        "titulo": "El Espejo Africano",
+        "subtitulo": "El Espejo Africano",
+        "precio": 9560,
+        "cantidad": 1,
+        "categoria": "infantil"
+    }
+
+]

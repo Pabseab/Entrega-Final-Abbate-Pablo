@@ -7,6 +7,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import CartWidget from "./CartWidget";
 //Estilos
 import "./NavBar.css";
+import { Link } from 'react-router-dom';
 
 const NavBar = () => {
 
@@ -15,16 +16,16 @@ return(
     <div>
     <Navbar id='Navegador' collapseOnSelect expand="lg" className="bg-body-tertiary">
       <Container>
-        <Navbar.Brand href="#home">El Pony Pisador</Navbar.Brand>
+        <Link to="/">El Pony Pisador</Link>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="#features">Novedades</Nav.Link>
             <Nav.Link href="#pricing">Contacto</Nav.Link>
             <NavDropdown title="Catalogo" id="collapsible-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">General</NavDropdown.Item>
+              <Link to="/category/general">General</Link>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.2">Infantil</NavDropdown.Item>
+              <Link to="/category/infantil">Infantil</Link>
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>
