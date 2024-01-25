@@ -3,7 +3,7 @@ import  NavBar  from "../Components/NavBar/NavBar";
 import  Home  from "../pages/Home";
 import Category from "../pages/Category";
 import { ItemDetailContainer } from "../pages/ItemDetailContainer";
-import CategoryFb from "../pages/categoryFb";
+import Novedades from "../pages/Novedades"
 
 const MainRouter = ()  => {
     return (
@@ -13,7 +13,7 @@ const MainRouter = ()  => {
                 <Route path="/" element={<Home />} />
                 <Route path="/category/:categoria" element={<Category />} />
                 <Route path="/item/:id" element={<ItemDetailContainer />} />
-                <Route path="/categoryFb" element={<CategoryFb />} />
+                <Route path="/Novedades" element={<Novedades />} />
             </Routes>
         </BrowserRouter>
     )

@@ -22,9 +22,8 @@ return(
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="#features">Novedades</Nav.Link>
+              <Link to="/Novedades" style={{textDecoration: "none", color: "black"}}>Novedades</Link>
               <Nav.Link href="#pricing">Contacto</Nav.Link>
-              <Link to="/categoryFb" style={{textDecoration: "none", color: "black"}}>Infantil</Link>
               <NavDropdown title="Catalogo" id="collapsible-nav-dropdown">
                 <Link to="/category/general" style={{textDecoration: "none", color: "black"}}>General</Link>
                 <NavDropdown.Divider />

@@ -1,5 +1,4 @@
 
-import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import { Link } from 'react-router-dom';
 
@@ -8,8 +7,7 @@ const ItemListContainer = ({productsData}) => {
     return(
         <div className='container'>
             <div className='row'>
-                {
-                    productsData.map(products => {
+                {productsData.map((products) => {
                         return(
                             <div className='col-lg-4' key={products.id} style={{display:'flex', justifyContent:'space-around', flexWrap: "wrap", marginTop: "5vh"}}>
                                 <Card style={{ display: "flex", justifyContent: "space-around", flexWrap: "wrap"}}>
