@@ -6,13 +6,19 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import MainRouter from "./router/MainRouter";
 
+import { CartProvider } from "./Context/CartContext";
+
+//import "./App.css";
+
 //import {Data} from "./json/productsData.js"
 
 const App = () => {
 
   return (
-      <div style={{width:"100vw", height:"100vh"}}> 
-        <MainRouter />
+      <div> 
+        <CartProvider>
+          <MainRouter />
+        </CartProvider>
       </div>
   );
 }
