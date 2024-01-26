@@ -1,8 +1,5 @@
 import { useParams } from 'react-router-dom';
 import { useState, useEffect, useContext } from 'react';
-import ItemListContainer from '../Components/ItemListContainer/ItemListContainer';
-import { traerLibroPorId } from "../Services";
-import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import { Link } from 'react-router-dom';
 import CountComponent from '../Components/CountComponent/CountComponent';
@@ -11,7 +8,7 @@ import { doc, getDoc } from 'firebase/firestore';
 import { CartContext } from '../Context/CartContext';
 
 export const ItemDetailContainer = () => {
-  const id = useParams().id;
+  const { id } = useParams();
   const [libro, setLibro] = useState([]);
   const {agregarAlCarrito, carrito} = useContext(CartContext)
   
@@ -25,13 +22,12 @@ export const ItemDetailContainer = () => {
   };
 
   useEffect(() => {
-    const docRef= doc(dataBase,"Productos", id)
-    getDoc(docRef)
-    .then((resp)=>{
-      setLibro({...resp.data(),id: resp.id})
+    const docRef= doc(dataBase,"Products", id);
+    getDoc(docRef).then((doc) => {
+      setLibro({ ...doc.data(), id: doc.id })
     })
 
-  }, [id])
+  }, [id]);
 
   return (
     <div style={{display: "flex", justifyContent: "center", alignItems: "center", marginTop: "100px"}}>
@@ -52,6 +48,3 @@ export const ItemDetailContainer = () => {
     </div>
   )
 }
-
-
-export default ItemDetailContainer

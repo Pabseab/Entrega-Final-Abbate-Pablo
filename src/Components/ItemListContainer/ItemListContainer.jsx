@@ -32,15 +32,15 @@ useEffect( () => {
         <div className='container' style={{height: "100vh"}}>
             <div className='row'>
                 {products && 
-                    products.map((product) => {
+                    products.map((product, index) => {
                     return(
-                            <div className='col-lg-4' key={products.id} style={{display:'flex', justifyContent:'space-around', flexWrap: "wrap", marginTop: "5vh", marginBottom: "5vh"}}>
-                                <Card style={{ display: "flex", justifyContent: "space-around", flexWrap: "wrap", alignItems: "center"}}>
+                            <div className='col-lg-4' key={product.id} style={{display:'flex', justifyContent:'space-around', flexWrap: "wrap", marginTop: "5vh", marginBottom: "5vh"}}>
+                                <Card style={{ display: "flex", justifyContent: "space-around", flexWrap: "wrap", alignItems: "center"}} >
                                     <img style={{width: "150px", height: "225px", marginBottom: "15px"}} src={product.Imagen} alt={product.Titulo} />
                                     <Card.Title>{product.Titulo}</Card.Title>
                                     <p>{product.Categoria}</p>
                                     <p> $ {product.Price}</p>
-                                    <Link to={"/item/"+products.id} className="btn btn-primary">Ver Ficha del Producto</Link>
+                                    <Link to={"/item/"+product.id} className="btn btn-primary">Ver Ficha del Producto</Link>
                                 </Card>
                             </div>
                         )
