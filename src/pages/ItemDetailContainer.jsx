@@ -25,7 +25,7 @@ export const ItemDetailContainer = () => {
   };
 
   useEffect(() => {
-    const docRef= doc(dataBase,"Products", id)
+    const docRef= doc(dataBase,"Productos", id)
     getDoc(docRef)
     .then((resp)=>{
       setLibro({...resp.data(),id: resp.id})
@@ -34,7 +34,7 @@ export const ItemDetailContainer = () => {
   }, [id])
 
   return (
-    <div style={{display: "flex", justifyContent: "center", alignItems: "center", marginTop: 100}}>
+    <div style={{display: "flex", justifyContent: "center", alignItems: "center", marginTop: "100px"}}>
       <Card key={libro.id} style={{ width: '20rem', display:'flex', justifyContent: "center", alignItems: "center"}}>
         <Card.Img variant="top" src={libro.Imagen} style={{width: "15 rem"}} />
         <Card.Body>

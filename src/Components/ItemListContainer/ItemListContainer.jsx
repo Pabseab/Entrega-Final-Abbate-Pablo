@@ -29,8 +29,8 @@ useEffect( () => {
 
     return(
 
-        <div className='container' style={{height: "100vh"}} >
-            <div className='row' >
+        <div className='container' style={{height: "100vh"}}>
+            <div className='row'>
                 {products && 
                     products.map((product) => {
                     return(
