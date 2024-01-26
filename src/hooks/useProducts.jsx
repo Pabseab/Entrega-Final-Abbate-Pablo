@@ -15,9 +15,9 @@ export const useGetProducts = (collectionName = "Products") => {
 
         const dataProducts = collection (db, collectionName);
     
-          getDocs(dataProducts).them((snapshot) => {
+          getDocs(dataProducts).then((snapshot) => {
             setProductsData
-            (snapshot.docs.map((doc => ({id: doc.id,...doc.data() })))
+            (snapshot.docs.map((doc => ({id: doc.id,...doc.data() }))) 
         );
       });  
     }, []);

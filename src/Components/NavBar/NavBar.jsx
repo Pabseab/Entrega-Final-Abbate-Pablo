@@ -22,12 +22,12 @@ return(
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
-              <Link to="/Novedades" style={{textDecoration: "none", color: "black"}}>Novedades</Link>
+              <Nav.Link href="#pricing">Novedades</Nav.Link>
               <Nav.Link href="#pricing">Contacto</Nav.Link>
               <NavDropdown title="Catalogo" id="collapsible-nav-dropdown">
-                <Link to="/category/general" style={{textDecoration: "none", color: "black"}}>General</Link>
+                <Link to="/category/General" style={{textDecoration: "none", color: "black"}}>General</Link>
                 <NavDropdown.Divider />
-                <Link to="/category/infantil" style={{textDecoration: "none", color: "black"}}>Infantil</Link>
+                <Link to="/category/Infantil" style={{textDecoration: "none", color: "black"}}>Infantil</Link>
               </NavDropdown>
             </Nav>
           </Navbar.Collapse>
